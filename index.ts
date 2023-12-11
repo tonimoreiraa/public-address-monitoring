@@ -11,7 +11,7 @@ type Server = {
 
 async function testLink(server: Server, index: number)
 {
-    const url = `http://${server.serverAddress}/PING/${address}?trID=${index}&nPing=1&_=1702312255888`
+    const url = `http://${server.serverAddress}/PING/${address}?trID=${index}&nPing=1`
 
     const response = []
 
