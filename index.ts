@@ -15,7 +15,7 @@ async function testLink(server: Server, index: number)
 
     const response = []
 
-    for (var i = 0; i < 5; i++) {
+    for (var i = 0; i < 3; i++) {
         try {
             const { data } = await axios.get(url, {
                 timeout: 6000
